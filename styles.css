@@ -1,9 +1,19 @@
 
-    body {
+
+
+   
+   body {
         background-color: blanchedalmond;
         color: #911e1e;
     }
-    .tutorial {
-        border: solid 1px #777
+   
+
+    #swyn-2 {
+        background-color: aquamarine;
+        border: solid 5px #08fd00
     }
+
+.tutorial > p { 
+    font-size: 2em
     
+}
