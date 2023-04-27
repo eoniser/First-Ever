@@ -65,6 +65,48 @@ article {
     width: 75%;
 }
 
+.columns {
+    display: flex;
+
+}
+
+/* Merchandise */
+
+.merch {
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #faebd7;
+    border: solid 1px #fad766;
+}
+
+.merch img {
+    width: 100%;
+}
+
+.merch .title {
+    font-weight: bold;
+}
+
+.merch .columns {
+    width: 100%;
+}
+
+.merch .price {
+    text-align: right;
+}
+
+.merch .columns div {
+    width: 50%;
+}
+
+.merch button {
+    background-color: #fad766;
+    padding: 10px;
+    border: solid 1px #d6b33f;
+    border-radius: 3px;
+}
+
 @media only screen and (min-width: 768px) {
 main {
     display: flex;
@@ -72,4 +114,7 @@ main {
 aside {
     margin-left: 2%;
 }
+}
+.columns-desktop {
+    display: flex;
 }
