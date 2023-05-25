@@ -31,7 +31,7 @@ nav a:visited, nav a:link {
 }
 
 nav > ul {
-    dispaly: inline;
+    display: inline;
     padding: 0;
 }
 
